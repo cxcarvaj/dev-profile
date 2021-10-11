@@ -2,8 +2,8 @@ import axios from "axios";
 import Head from "next/head";
 import { useState, useEffect } from "react";
 import styles from "../styles/Home.module.css";
-import Footer from "./components/Footer";
-import Navbar from "./components/Navbar";
+import Footer from "../components/Footer";
+import Navbar from "../components/Navbar";
 
 const Home = () => {
   const [userName, setUserName] = useState("");
@@ -43,7 +43,8 @@ const Home = () => {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="">my profile</a>
+          Welcome to my dev-profile
+          <div className="is-size-4 mt-4">Checkout my <a href="https://www.linkedin.com/in/cxcarvaj/" target="_blank">LinkedIn</a></div>
         </h1>
       </main>
       <div className="container">

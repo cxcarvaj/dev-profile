@@ -11,7 +11,7 @@ const Footer = (props) => {
           Developer focused in Front-End
         </p>
         <div className="ml-5">
-          <a className="button is-linkedin">
+          <a className="button is-linkedin" href="https://www.linkedin.com/in/cxcarvaj/">
             <span className="icon is-medium">
               <img
                 src="https://i.postimg.cc/7PVZDm8w/linkedin-1.png"

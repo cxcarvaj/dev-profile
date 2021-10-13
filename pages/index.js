@@ -15,7 +15,7 @@ const Home = (props) => {
       <main className={styles.main}>
         <h1 className={styles.title}>
           Welcome to my dev-profile
-          <div className="is-size-4 mt-4">Checkout my <a href="https://www.linkedin.com/in/cxcarvaj/" target="_blank">LinkedIn</a></div>
+          <div className="is-size-4 mt-4">Checkout my <a href="https://www.linkedin.com/in/cxcarvaj/" target="_blank" rel="noopener noreferrer">LinkedIn</a></div>
         </h1>
       </main>
       <div className="container">

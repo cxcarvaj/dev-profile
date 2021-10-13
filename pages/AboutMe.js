@@ -1,4 +1,5 @@
-const AboutMe = () => {
+const AboutMe = (props) => {
+    const {Footer } = props;
     return(
         <div>
             About Me

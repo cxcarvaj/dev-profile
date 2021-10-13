@@ -4,7 +4,7 @@ const Navbar = () => {
     <nav className="navbar is-dark" role="navigation" aria-label="main navigation">
       <div id="navbarBasicExample" className="navbar-menu">
         <div className="navbar-start">
-          <Link href=""><a className="navbar-item">Home</a></Link>
+          <Link href="/"><a className="navbar-item">Home</a></Link>
 
           <Link href="/PublicRepositories"><a className="navbar-item">Public Repositories</a></Link>
 
